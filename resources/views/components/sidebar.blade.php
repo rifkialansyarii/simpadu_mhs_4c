@@ -1,0 +1,79 @@
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <div class="logo">
+        <div class="logo-box">
+            <img src="{{ asset('assets/img/logo_poliban.png') }}" alt=>
+        </div>
+        <div class="brand-text">
+            <h1>Poliban</h1>
+            <p>SI Akademik</p>
+        </div>
+    </div>
+
+    <ul class="menu">
+        <li data-menu="dashboard">
+            <a href="{{ url('/dashboard_admin') }}">
+                <i data-lucide="layout-dashboard"></i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+
+        <li data-menu="mahasiswa">
+            <a href="{{ url('/data_mahasiswa') }}">
+                <i data-lucide="graduation-cap"></i>
+                <span>Data Mahasiswa</span>
+            </a>
+        </li>
+
+        <li data-menu="presensi">
+            <a href="/pages/presensi.html">
+                <i data-lucide="clipboard-list"></i>
+                <span>Presensi</span>
+            </a>
+        </li>
+
+        <li data-menu="penilaian">
+            <a href="/pages/penilaian.html">
+                <i data-lucide="award"></i>
+                <span>Penilaian</span>
+            </a>
+        </li>
+
+        <li data-menu="krs">
+            <a href="/pages/krs.html">
+                <i data-lucide="file-text"></i>
+                <span>KRS</span>
+            </a>
+        </li>
+
+        <li data-menu="khs">
+            <a href="/pages/khs.html">
+                <i data-lucide="file-text"></i>
+                <span>KHS</span>
+            </a>
+        </li>
+
+        <li data-menu="jadwal">
+            <a href="/pages/jadwal_kuliah.html">
+                <i data-lucide="calendar"></i>
+                <span>Jadwal Kuliah</span>
+            </a>
+        </li>
+
+        <li data-menu="pengaturan">
+            <a href="/pages/pengaturan.html">
+                <i data-lucide="settings"></i>
+                <span>Pengaturan</span>
+            </a>
+        </li>
+    </ul>
+    <ul class="bottom">
+
+        <li data-menu="keluar">
+            <a href="/pages/keluar.html">
+                <i data-lucide="log-out"></i>
+                <span>Keluar</span>
+            </a>
+        </li>
+    </ul>
+</div>

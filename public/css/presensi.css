@@ -1,0 +1,128 @@
+/* ===================== CARDS ===================== */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+    margin:20px 0;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+    margin-top:20px;
+}
+
+/* ===================== ICON ===================== */
+.icon{
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:10px;
+}
+
+.icon.blue{ background:#DBEAFE; }
+.icon.green{ background:#D1FAE5; }
+.icon.orange{ background:#FFE4D6; }
+.icon.red{ background:#FEE2E2; }
+
+/* ===================== FILTER ===================== */
+.filter-bar{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.filter-bar select,
+.filter-bar input{
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    outline:none;
+}
+
+/* ===================== TABLE ===================== */
+.table-box{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* pakai class .table biar aman */
+.table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table th,
+.table td{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    text-align:left;
+}
+
+/* ===================== BADGE STATUS ===================== */
+.badge{
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    display:inline-block;
+}
+
+.badge.hadir{
+    background:#d4f5e3;
+    color:#16a34a;
+}
+
+.badge.izin{
+    background:#fef3c7;
+    color:#d97706;
+}
+
+.badge.alfa{
+    background:#fee2e2;
+    color:#dc2626;
+}
+
+/* ===================== PROGRESS BAR ===================== */
+.progress{
+    height:6px;
+    background:#eee;
+    border-radius:10px;
+    overflow:hidden;
+    margin-top:5px;
+}
+
+.progress-bar{
+    height:100%;
+    background:#22c55e;
+}
+
+/* versi alternatif (kalau pakai span) */
+.bar{
+    height:6px;
+    background:#eee;
+    border-radius:10px;
+    margin-top:5px;
+}
+
+.bar span{
+    display:block;
+    height:100%;
+    background:#16A34A;
+    border-radius:10px;
+}
+
+/* ===================== BACK LINK ===================== */
+.back{
+    cursor:pointer;
+    color:#2F5BEA;
+    margin-bottom:10px;
+    display:inline-block;
+    font-weight:500;
+}
